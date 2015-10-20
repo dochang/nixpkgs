@@ -45,6 +45,8 @@ let
 
     android-udev-rules = callPackage ./pkgs/os-specific/linux/android-udev-rules { };
 
+    yank = callPackage ./pkgs/tools/misc/yank { };
+
   };
 
 in
