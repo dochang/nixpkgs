@@ -47,6 +47,8 @@ let
 
     yank = callPackage ./pkgs/tools/misc/yank { };
 
+    editorconfig-core-c = callPackage ./pkgs/development/tools/misc/editorconfig-core-c { };
+
   };
 
 in
