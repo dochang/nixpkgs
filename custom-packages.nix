@@ -41,6 +41,8 @@ let
 
   self = {
 
+    git-crypt = callPackage ./pkgs/applications/version-management/git-and-tools/git-crypt { };
+
   };
 
 in
