@@ -43,6 +43,8 @@ let
 
     git-crypt = callPackage ./pkgs/applications/version-management/git-and-tools/git-crypt { };
 
+    android-udev-rules = callPackage ./pkgs/os-specific/linux/android-udev-rules { };
+
   };
 
 in
