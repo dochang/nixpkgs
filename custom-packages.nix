@@ -49,6 +49,8 @@ let
 
     editorconfig-core-c = callPackage ./pkgs/development/tools/misc/editorconfig-core-c { };
 
+    lnav = callPackage ./pkgs/tools/misc/lnav { };
+
   };
 
 in
