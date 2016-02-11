@@ -51,6 +51,8 @@ let
 
     lnav = callPackage ./pkgs/tools/misc/lnav { };
 
+    rolespec = callPackage ./pkgs/development/tools/misc/rolespec { };
+
   };
 
 in
